@@ -6,6 +6,7 @@ import 'core/services/iap_service.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+
   // Initialize IAP service
   await IAPService.instance.initialize();
 
